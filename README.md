@@ -23,19 +23,18 @@ menu:
 
 ### 皮肤
 
-> [!NOTE] 皮肤使用
-> 	需要在 `weasel.custom.yaml` 中加入皮肤配置
+皮肤使用，需要在 `weasel.custom.yaml` 中加入皮肤配置
 
 ```yaml
 patch:
-  style:
-    color_scheme: wechat # 应用的配色方案
+  style:
+    color_scheme: wechat # 应用的配色方案
     font_face: "霞鹜文楷 GB 屏幕阅读版" # 应用的字体
     font_point: 14 # 字号大小
     horizontal: false # 候选栏横排显示
     inline_preedit: false # 隐藏打字栏
     display_tray_icon: false # 不显示托盘图标
-    layout:
+    layout:
       border_width: 2 # 边框宽度
       margin_x: 10 # 候选字左右边距
       margin_y: 10 # 候选字上下边距
@@ -44,8 +43,8 @@ patch:
       hilite_spacing: 3 # 序号和候选字之间的间隔
       round_corner: 10 # 候选字背景色块圆角幅度
       hilite_padding: 4 # 候选字背景色色块高度和打字栏未选择字背景色块高度
-  preset_color_schemes:  # 配色方案
-    time_water:
+  preset_color_schemes:  # 配色方案
+    time_water:
       name: "时光如水"
       author: "7e2hj"
       text_color: 0x969483 # 打字栏除正在选择字外的字 字体颜色
@@ -58,7 +57,7 @@ patch:
       hilited_back_color: 0xf2f2f2 # 打字栏 正在选择的字 背景色
       hilited_candidate_text_color: 0xff2288 # 候选栏 候选字颜色
       hilited_candidate_back_color: 0xffccff # 候选栏 候选字背景色
-    wechat:
+    wechat:
       name: "微信键盘"
       author: "zsakvo"
       back_color: 0xFFFFFF
@@ -75,25 +74,25 @@ patch:
       hilited_candidate_text_color: 0xFFFFFF
       label_font_point: 12
       text_color: 0x424242
-    win11_light:
+    win11_light:
       name: " Win11浅色"
-      candidate_text_color:             0x000000
-      comment_text_color:               0x666666
-      text_color:                       0x777777
-      back_color:                       0xf9f9f9
-      border_color:                     0x009e5a00
-      hilited_text_color:               0x000000
-      hilited_back_color:               0x1ff9f9f9
-      hilited_candidate_text_color:     0xFFFFFF #0x000000
-      hilited_candidate_back_color:     0x75B100 #0xf0f0f0
-      candidate_back_color:             0x2ff9f9f9
-      candidate_text_color:             0x3a3a3a
-      hilited_mark_color:               0x9e5a00
-      hilited_comment_text_color:       0x1a1a1a
-      hilited_label_color:              0x1a1a1a
-      label_color:                      0x1a1a1a
-      shadow_color:                     0x20000000
-      hilited_candidate_shadow_color:   0x20000000
+      candidate_text_color: 0x000000
+      comment_text_color: 0x666666
+      text_color: 0x777777
+      back_color: 0xf9f9f9
+      border_color: 0x009e5a00
+      hilited_text_color: 0x000000
+      hilited_back_color: 0x1ff9f9f9
+      hilited_candidate_text_color: 0xFFFFFF #0x000000
+      hilited_candidate_back_color: 0x75B100 #0xf0f0f0
+      candidate_back_color: 0x2ff9f9f9
+      candidate_text_color: 0x3a3a3a
+      hilited_mark_color: 0x9e5a00
+      hilited_comment_text_color: 0x1a1a1a
+      hilited_label_color: 0x1a1a1a
+      label_color: 0x1a1a1a
+      shadow_color: 0x20000000
+      hilited_candidate_shadow_color: 0x20000000
 ```
 
 
