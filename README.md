@@ -24,6 +24,7 @@ menu:
 ### 皮肤
 
 皮肤使用，需要在 `weasel.custom.yaml` 中加入皮肤配置
+（注意：若需要保留输入法默认的一些皮肤，需要到 build 文件夹中找到 `weasel.yaml` 文件，把皮肤复制出来，因为重新部署会覆盖原有皮肤）
 
 ```yaml
 patch: 
@@ -32,7 +33,7 @@ patch:
     font_face: "微软雅黑" # 应用的字体
     font_point: 14 # 字号大小
     horizontal: false # 候选栏横排显示
-    inline_preedit: false # 隐藏打字栏
+    在line_preedit: false # 隐藏打字栏
     display_tray_icon: false # 不显示托盘图标
     layout:
       border_width: 2 # 边框宽度
@@ -75,6 +76,26 @@ patch:
       hilited_candidate_text_color: 0xFFFFFF
       label_font_point: 12
       text_color: 0x424242
+    wechat_dark:
+      name: "微信键盘_深色"
+      author: "shlroland"
+      back_color: 0x151515
+      border_color: 0x151515
+      border_height: 0
+      border_width: 8
+      candidate_format: '%c %@ '
+      comment_text_color: 0xAEAEAE
+      corner_radius: 5
+      hilited_corner_radius: 5
+      font_face: PingFangSC
+      font_point: 16
+      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_text_color: 0xFFFFFF
+      horizontal: true
+      在line_preedit: true
+      label_font_point: 12
+      label_color: 0x777777
+      text_color: 0xBBBBBB
     win11:
       name: "win11"
       author: "luminosa"
@@ -107,4 +128,4 @@ patch:
 ```
  HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon 
 ```
-创建了字符串值，名称 `Shell`，值为 `explorer.exe,"D:\Program Files\Rime\weasel-0.15.0\WeaselServer.exe"`，随后小狼毫可以正常启动了，且开机后立刻可以使用。
+创建字符串值，名称 `Shell`，值为 `explorer.exe,"D:\Program Files\Rime\weasel-0.15.0\WeaselServer.exe"`，随后小狼毫可以正常启动了，且开机后立刻可以使用。
