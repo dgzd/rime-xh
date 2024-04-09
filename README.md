@@ -120,12 +120,19 @@ patch:
 
 - 霞骛文楷 - https://github.com/lxgw/LxgwWenKai
 
-## 服务自启动问题
+## 开机后，服务自启动失败，无法输入中文的解决方案
 
-开机无法输入中文，需要到程序文件夹中启动 `WeaselServer.exe`
+1. 短暂解决方案：需要打开程序文件夹，手动启动 `WeaselServer.exe`
 
-或 `win + r ` 输入 ` regedit `，在注册表中如下位置
-```
- HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon 
-```
-创建字符串值，名称 `Shell`，值为 `explorer.exe,"D:\Program Files\Rime\weasel-0.15.0\WeaselServer.exe"`，随后小狼毫可以正常启动了，且开机后立刻可以使用。
+2. 永久解决方案
+   删除原有的 `WeaselServer.exe` 启动项，然后在注册表中添加新的启动项。
+   
+   按 `win + r ` 输入 `regedit` 打开注册表，在注册表中如下位置
+   ```
+   HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon 
+   ```
+   创建字符串值，名称 `Shell`，值为 `explorer.exe,"D:\Program Files\Rime\weasel-0.15.0\WeaselServer.exe"` 
+
+   注：值中的地址需要根据自己的安装位置自行修改。
+
+   创建完后，小狼毫立刻就恢复正常了，且开机后也不会再出现无法输入中文的问题。
