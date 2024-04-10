@@ -1,8 +1,8 @@
 # rime-xh
 小鹤双拼+辅助码 Rime配置
 
-## 小狼毫最新版下载地址
-[小狼毫最新发行版](https://github.com/Techince/weasel/releases)
+## 小狼毫下载地址
+[官网下载的或许会存在一些bug，推荐使用此版本](https://github.com/Techince/weasel/releases)
 
 ## 配置文件
 
