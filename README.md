@@ -2,13 +2,13 @@
 小鹤双拼+辅助码 Rime配置
 
 ## 小狼毫下载地址
-[官网下载的或许会存在一些bug，推荐使用此版本](https://github.com/Techince/weasel/releases)
+[官方Github](https://github.com/rime/weasel/releases)
 
 ## 配置文件
 
 我的输入方案是使用此地址提供的配置。
 
-[小鹤双拼加辅助码：Github](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
+[小鹤双拼句中任意字后加辅助码：Github](https://github.com/gaboolic/rime-shuangpin-fuzhuma)
 
 
 ## 个人设置
