@@ -63,7 +63,7 @@ patch:
 
 ### 小企鹅输入法下载
 
-1. 打开[官方地址：fcitx-android](https://jenkins.fcitx-im.org/job/android/)
+1. 打开[官方下载地址：fcitx-android](https://jenkins.fcitx-im.org/job/android/)
 2. 至少下载主程序和 rime 插件
 
 - fcitx5-android：小企鹅输入法主程序
@@ -72,9 +72,10 @@ patch:
 
 ### 配置
 1. 安装输入法主程序，再安装 rime 插件
-2. 在输入法中添加**中州韵**
-3. 把配置文件放入下列文件夹中
+2. 在手机系统设置中启用并切换到小企鹅输入法
+3. 在输入法中添加**中州韵**
+4. 把配置文件放入下列文件夹中
    ```
    /Android/data/org.fcitx.fcitx5.android/files/data/rime/
    ```
-4. 退出输入法后重新打开   
+5. 退出输入法后重新打开   
