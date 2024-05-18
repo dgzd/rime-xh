@@ -22,7 +22,7 @@ patch:
 ```
 
 2. 自定义短语：在 `custom_phrase.txt` 中修改
-3. 键盘中英文符号映射：可以把需要修改的符号对抽取到 `flypy_flypy.custom.yaml` 文件中。符号对参照参照`default.yaml`
+3. 键盘中英文符号映射：可以把所有的半角符号对抽取到 `flypy_flypy.custom.yaml` 文件中。符号对参照参照`default.yaml`
 
 ### 皮肤
 
